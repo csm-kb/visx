@@ -43,5 +43,11 @@
   "devDependencies": {
     "@types/d3-hierarchy": "^1.1.6",
     "d3-hierarchy": "^1.1.8"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

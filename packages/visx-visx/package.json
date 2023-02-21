@@ -64,5 +64,11 @@
     "@visx/wordcloud": "3.0.0",
     "@visx/xychart": "3.0.1",
     "@visx/zoom": "3.0.1"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

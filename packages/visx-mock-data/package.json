@@ -33,5 +33,11 @@
   "dependencies": {
     "@types/d3-random": "^2.2.0",
     "d3-random": "^2.2.2"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

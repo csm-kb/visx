@@ -43,5 +43,11 @@
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^8.0.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

@@ -49,5 +49,11 @@
     "@visx/text": "3.0.0",
     "classnames": "^2.3.1",
     "prop-types": "^15.6.2"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

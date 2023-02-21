@@ -39,5 +39,11 @@
   },
   "peerDependencies": {
     "react": "^16.3.0-0 || ^17.0.0-0 || ^18.0.0-0"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

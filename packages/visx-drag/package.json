@@ -38,5 +38,11 @@
     "@visx/event": "3.0.1",
     "@visx/point": "3.0.1",
     "prop-types": "^15.5.10"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

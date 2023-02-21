@@ -40,5 +40,11 @@
     "classnames": "^2.3.1",
     "d3-shape": "^1.2.0",
     "prop-types": "^15.6.2"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }

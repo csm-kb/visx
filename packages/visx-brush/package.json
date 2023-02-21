@@ -40,5 +40,11 @@
     "@visx/shape": "3.0.0",
     "classnames": "^2.3.1",
     "prop-types": "^15.6.1"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./esm/index.js"
+    }
   }
 }
